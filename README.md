@@ -1,6 +1,4 @@
-# etl_spring_batch
-
-ETL com Spring Batch.
+# ETL com Spring Batch.
 
 Para rodar, basta compilar o projeto com "mvn package", depois executar o "run.bat"
 
