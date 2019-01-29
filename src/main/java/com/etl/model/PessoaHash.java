@@ -30,6 +30,6 @@ public class PessoaHash implements Serializable {
 
     @Override
     public String toString() {
-        return "ID: " + getPessoa().getId() + ", NOME: " + getPessoa().getNome() + ", HASH: " + getHash();
+        return "NOME: " + getPessoa().getNome() + ", HASH: " + getHash();
     }
 }

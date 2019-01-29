@@ -10,6 +10,6 @@ public class BatchProcessor implements ItemProcessor<Pessoa, PessoaHash> {
 
     @Override
     public PessoaHash process(final Pessoa item) throws Exception {
-        return PessoaHash.of(item, new HashCodeBuilder().append(item.getNome()).append(item.getCpf()).build());
+        return PessoaHash.of(item, new HashCodeBuilder().append(item.getNome()).build());
     }
 }

@@ -13,7 +13,7 @@ public class BatchReader implements ItemReader<Pessoa> {
 
     @Override
     public Pessoa read() throws Exception {
-        final List<Pessoa> pessoas = PessoaMock.getPessoas();
+        final List<Pessoa> pessoas = PessoaMock.getPessoas(50);
         if (execucoes < pessoas.size()) {
             return pessoas.get(execucoes++);
         }
