@@ -1,5 +1,15 @@
 # ETL com Spring Batch.
 
-Para rodar, basta compilar o projeto com "mvn package", depois executar o "run.bat"
+Neste projeto de demonstração, este processo é feito utilizando Spring Batch e os dados utilizados foram extraídos de um mock.
 
-Este projeto gera um hash de um nome gerado em um mock, depois printa o resultado no console.
+**Rodando o projeto:**
+
+Compilar o projeto
+
+`mvn package`
+
+em seguida executar
+
+`run.bat`
+
+O resultado da execução pode ser vista pelo log do console, onde é criado um hash do nome da pessoa.
